@@ -1,0 +1,5 @@
+.jekil-cache/
+.jekil-cache/*
+portfolio/.sass-cache/
+portfolio/.sass-cache/*
+portfolio/_site

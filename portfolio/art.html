@@ -1,0 +1,12 @@
+---
+title: Artwork
+---
+<h1>{{ page.title }}</h1>
+
+<p>I sometime make desktop wallpapers. This page is a collection of wallpapers or any other art I create.</p>
+
+<ul>
+  {% for artwork in site.art %}
+    <li><h2><a href="{{ artwork.url }}">{{ artwork.title }}</a></h2></li>
+  {% endfor %}
+</ul>
